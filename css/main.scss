@@ -7,9 +7,9 @@
 }
 
 $colors: (
-    primary: #005DFF,
-    primary-light: lighten(#005DFF, 40%),
-    primary-dark: darken(#005DFF, 40%),
+    primary: #d48989,
+    primary-light: lighten(#d48989, 20%),
+    primary-dark: darken(#d48989, 20%),
     secondary: #FFF6BB
 );
 
@@ -55,7 +55,10 @@ body {
         padding: $padding;
         display: block;
         text-transform: uppercase;
+    }
 
+    .logo {
+        width: 100px;
     }
 
 }
